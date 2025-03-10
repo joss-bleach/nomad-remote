@@ -2,11 +2,11 @@
 
 import {
   Carousel,
-  CarouselApi,
+  // CarouselApi,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  // CarouselNext,
+  // CarouselPrevious,
 } from "@/components/ui/carousel";
 import { CategoryIcon } from "@/modules/category/ui/components/category-icons";
 
@@ -20,7 +20,7 @@ interface CategoryFilterCarouselProps {
 }
 
 export const CategoryFilterCarousel = ({
-  value,
+  // value,
   data,
 }: CategoryFilterCarouselProps) => {
   return (
